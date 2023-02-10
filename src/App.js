@@ -12,7 +12,7 @@ function App() {
 
         <CartWidget />
       </NavBar>
-      <ItemListContainer argGreeting={"Peyi"} />
+      <ItemListContainer argGreeting={"Hola"} />
       
     </div>
   );

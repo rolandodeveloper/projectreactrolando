@@ -28,12 +28,12 @@
 
 .header .nav-links a {
     font-size: 700;
-    color: aqua;
+    color: white;
     text-decoration: none;
 }
 
 .header .nav-links li a:hover {
-    color: blueviolet;
+    color: khaki;
 }
 
 .header .btn button{
