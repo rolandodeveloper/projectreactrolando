@@ -4,46 +4,67 @@
     "previous": null, 
     "results": [
         {
-            "numero": "1", 
+            "numero": "001", 
             "nombre": "Excel básico", 
             "precio": "120",
             "descripcion": "Descripción Excel básico",
             "codigoCategoria": "100"
         }, 
         {
-            "numero": "2", 
+            "numero": "002", 
             "nombre": "Excel intermedio", 
             "precio": "180",
             "descripcion": "Descripción Excel intermedio",
             "codigoCategoria": "100"
         }, 
         {
-            "numero": "3", 
+            "numero": "003", 
             "nombre": "Excel avanzado", 
             "precio": "220",
             "descripcion": "Descripción Excel avanzado",
             "codigoCategoria": "100"
         },
         {
-            "numero": "4", 
+            "numero": "004", 
             "nombre": "Python básico", 
-            "precio": "120",
+            "precio": "200",
             "descripcion": "Descripción Excel básico",
             "codigoCategoria": "101"
         }, 
         {
-            "numero": "5", 
+            "numero": "005", 
             "nombre": "Python intermedio", 
-            "precio": "180",
+            "precio": "270",
             "descripcion": "Descripción Excel intermedio",
             "codigoCategoria": "101"
         }, 
         {
-            "numero": "6", 
+            "numero": "006", 
             "nombre": "Python avanzado", 
-            "precio": "220",
+            "precio": "450",
             "descripcion": "Descripción Excel avanzado",
             "codigoCategoria": "101"
+        },
+        {
+            "numero": "007", 
+            "nombre": "Power BI básico", 
+            "precio": "190",
+            "descripcion": "Descripción Power BI básico",
+            "codigoCategoria": "102"
+        }, 
+        {
+            "numero": "008", 
+            "nombre": "Power BI intermedio", 
+            "precio": "230",
+            "descripcion": "Descripción Power BI intermedio",
+            "codigoCategoria": "102"
+        }, 
+        {
+            "numero": "009", 
+            "nombre": "Power BI avanzado", 
+            "precio": "370",
+            "descripcion": "Descripción Power BI avanzado",
+            "codigoCategoria": "102"
         }
     ]
 }

@@ -18,7 +18,7 @@ function App() {
         <CartWidget />
       </NavBar>
       <Routes>
-        <Route exact path='/' element={ <ItemListContainer argTexto1={"Bienvenido a mis cursos"} argTexto2={"Haga click en las categorías de la parte superior para ver los cursos disponibles"} /> }></Route>
+        <Route exact path='/' element={ <ItemListContainer  /> }></Route>
         <Route exact path='/Category/:id' element={ <Category /> }></Route>
         <Route exact path='/Course/:id' element={ <Course /> }></Route>    
         <Route exact path='/ItemDetailContainer/:id' element={ <ItemDetailContainer /> }></Route>            

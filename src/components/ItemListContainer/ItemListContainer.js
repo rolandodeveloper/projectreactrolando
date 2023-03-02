@@ -1,11 +1,12 @@
 import React from "react";
 import './itemlistcontainer.css'
+import {Link} from 'react-router-dom';
 
-const ItemListContainer =({argTexto1,argTexto2,argTexto03})=>{    
+const ItemListContainer =({argTexto1,argTexto2,argTexto3,argTexto4})=>{    
     return  <>
-                <p>{argTexto1}</p>
-                <p>{argTexto2}</p>
-                <p>{argTexto03}</p>
+                <p><Link to={`/itemDetailContainer/`+argTexto1}>{argTexto2}</Link></p>
+                <p>{argTexto3}</p>
+                <p>{argTexto4}</p>
             </>
             
 };

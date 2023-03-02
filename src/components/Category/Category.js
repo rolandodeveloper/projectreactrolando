@@ -37,7 +37,7 @@ const Category =()=>{
                     people.results.filter(p=>p.codigoCategoria===id).map(character => {                      
 
                       return  <div>
-                              <ItemListContainer argTexto1={character.nombre} argTexto2={character.precio}>
+                              <ItemListContainer argTexto1={character.numero} argTexto2={character.nombre} argTexto3={character.precio} argTexto4={character.descripcion}>
 
                               </ItemListContainer>
                               </div>;                      
