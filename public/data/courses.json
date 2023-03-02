@@ -1,0 +1,49 @@
+{
+    "count": 82, 
+    "next": "https://swapi.dev/api/people/?page=2", 
+    "previous": null, 
+    "results": [
+        {
+            "numero": "1", 
+            "nombre": "Excel básico", 
+            "precio": "120",
+            "descripcion": "Descripción Excel básico",
+            "codigoCategoria": "100"
+        }, 
+        {
+            "numero": "2", 
+            "nombre": "Excel intermedio", 
+            "precio": "180",
+            "descripcion": "Descripción Excel intermedio",
+            "codigoCategoria": "100"
+        }, 
+        {
+            "numero": "3", 
+            "nombre": "Excel avanzado", 
+            "precio": "220",
+            "descripcion": "Descripción Excel avanzado",
+            "codigoCategoria": "100"
+        },
+        {
+            "numero": "4", 
+            "nombre": "Python básico", 
+            "precio": "120",
+            "descripcion": "Descripción Excel básico",
+            "codigoCategoria": "101"
+        }, 
+        {
+            "numero": "5", 
+            "nombre": "Python intermedio", 
+            "precio": "180",
+            "descripcion": "Descripción Excel intermedio",
+            "codigoCategoria": "101"
+        }, 
+        {
+            "numero": "6", 
+            "nombre": "Python avanzado", 
+            "precio": "220",
+            "descripcion": "Descripción Excel avanzado",
+            "codigoCategoria": "101"
+        }
+    ]
+}

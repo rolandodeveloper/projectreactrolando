@@ -1,0 +1,20 @@
+{
+    "count": 3, 
+    "results": [
+        {
+            "codigo": "100", 
+            "nombre": "Excel", 
+            "descripcion": "Ninguna"           
+        }, 
+        {
+            "name": "101", 
+            "height": "Python", 
+            "mass": "Ninguna"            
+        }, 
+        {
+            "name": "102", 
+            "height": "Power BI", 
+            "mass": "Ninguna"            
+        }
+    ]
+}

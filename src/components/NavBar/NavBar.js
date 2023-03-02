@@ -1,5 +1,6 @@
 import React from "react";
-import './navbar.css'
+import './navbar.css';
+import {Link} from 'react-router-dom';
 
 const NavBar =({children})=>{
     return  <header className="header">
@@ -8,9 +9,15 @@ const NavBar =({children})=>{
                 </div>
                 <nav>
                     <ul className="nav-links">
-                        <li><a href="#">Python</a></li>
-                        <li><a href="#">Excel</a></li>
-                        <li><a href="#">Power BI</a></li>
+                        <li>
+                            <Link to="/Category/101">Python</Link>                            
+                        </li>
+                        <li>
+                            <Link to="/Category/100">Excel</Link>                            
+                        </li>
+                        <li>                            
+                            <Link to="/Category/102">Power BI</Link>                            
+                        </li>
                     </ul>
                 </nav>
                 {children}                
