@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Título del Proyecto
+
+Aplicación web para la venta de cursos online de Rolando
+
+## Descripción
+
+El proyecto permite navegar por diferentes cursos virtuales ofrecidos por Rolando, además, puede seleccionar uno o varios cursos y agregarlos a un carrito de compras para adquirirlos.
+
+## Créditos
+
+Rolando Zapata Maraví
+
+
