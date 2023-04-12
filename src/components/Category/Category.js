@@ -1,42 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,useContext } from "react";
 import './category.css'
 import { useParams } from "react-router-dom";
 import ItemListContainer from '../ItemListContainer/ItemListContainer';
 import { getFirestore,doc,getDoc, snapshotEqual, collection,getDocs,query,where} from 'firebase/firestore'
-
-// const Category =()=>{
-//     const { id } = useParams();    
-//     const [people,setPeople]=useState({});
-  
-//     useEffect(()=>{    
-//     fetch(`/data/courses.json`)
-//       .then((res)=>res.json())
-//       .then((res)=>setPeople(res));
-//     },[]);
-  
-//       return  (
-//         <div>
-//             {typeof people.results==='undefined' ? (
-//                 <div>Cargando</div>
-//             ) : (
-//                 <div> 
-//                   {                   
-//                     people.results.filter(p=>p.codigoCategoria===id).map(character => {                      
-
-//                       return  <div>
-//                               <ItemListContainer argTexto1={character.numero} argTexto2={character.nombre} argTexto3={character.precio} argTexto4={character.descripcion}>
-
-//                               </ItemListContainer>
-//                               </div>;                      
-//                     })
-//                   }
-//                 </div>
-//             )}
-//         </div>
-//       );            
-// };
+import PrecioContext from "../../contexts/PrecioContext";
 
 const Category =()=>{
+  
+  const { tipoCambio } = useContext(PrecioContext);
+
   const { id } = useParams();     
     const [items,setItems]=useState([]);
   
@@ -57,7 +29,7 @@ const Category =()=>{
     return  (
       <div>      
         <h2>Items de la categoría</h2>
-        
+        <p>Todos los precios están expresados en Nuevos soles, al finalizar la compra puede ver su equivalente en dólares (Tipo de cambio: {tipoCambio}) </p>
         {items.map((item)=>(
           
           <div>

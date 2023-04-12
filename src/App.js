@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,useContext } from "react";
 import NavBar from './components/NavBar/NavBar';
 import CartWidget from './components/CartWidget/CartWidget';
 import Course from './components/Course/Course';
@@ -11,17 +11,23 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import ItemDetailContainerById from './components/ItemDetailContainerById/ItemDetailContainerById';
 import Cart from './components/Cart/Cart';
+import PrecioContext from './contexts/PrecioContext';
 
 function App() {
   
   const [cartItems, setCartItems] = useState([]);
+  const [ tipoCambio, setTipoCambio ] = useState();
+  const [ codigoPedido, setCodigoPedido ] = useState();
 
   function addToCart(product) {
     setCartItems([...cartItems, product]);
   }
 
+  
+
   return (
-    <BrowserRouter>
+    <PrecioContext.Provider value={{ tipoCambio: 3.91,codigoPedido:1200 }}>
+      <BrowserRouter>
       <NavBar>
 
         <CartWidget />
@@ -37,6 +43,8 @@ function App() {
         
       </Routes>      
     </BrowserRouter>    
+    </PrecioContext.Provider>
+    
       
 
     
